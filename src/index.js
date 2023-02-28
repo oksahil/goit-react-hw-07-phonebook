@@ -14,7 +14,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Provider store={store}>
       <PersistGate loading={null} persistor={persistor}>
-        <BrowserRouter basename="/goit-react-hw-06-phonebook-redux-slice">
+        <BrowserRouter basename="/goit-react-hw-07-phonebook">
           <App />
         </BrowserRouter>
       </PersistGate>
